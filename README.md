@@ -11,6 +11,7 @@ https://learn.microsoft.com/de-ch/windows/apps/design/downloads/#fonts
 Since I have not tested this app on Windows 10, I can not guarantee that it works. 
 
 Screenshots:
+
 <img width="186" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/f74d99f3-edd7-4c34-bff2-57c62cb3dbe3">
 
 <img width="891" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/ce4df8e3-b339-4858-b82a-0b0083f6bb00">
