@@ -190,6 +190,7 @@ using System.Threading;
                 SetPowerMode.PowerSetActiveOverlayScheme(saved);
                 executed = true;
                 sentnoti = false;
+                await Task.Run(() => Notification());
                 }
             await Task.Delay(5000); // Wait before the next check
             }
