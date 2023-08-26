@@ -8,6 +8,7 @@ Features (so far):
 
 If you are using Windows 10, you will have to download the Segoe Fluent Icons Font. You can get it here: 
 https://learn.microsoft.com/de-ch/windows/apps/design/downloads/#fonts
+
 Since I have not tested this app on Windows 10, I can not guarantee that it works. 
 
 Screenshots:
