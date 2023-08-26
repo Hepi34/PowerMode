@@ -6,7 +6,14 @@ Features (so far):
 - Automatically going to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
 - Sending notifications if the powermode automatically changes.
 
+If you are using Windows 10, you will have to download the Segoe Fluent Icons Font. You can get it here: 
+https://learn.microsoft.com/de-ch/windows/apps/design/downloads/#fonts
+Since I have not tested this app on Windows 10, I can not guarantee that it works. 
+
 Screenshots:
+<img width="186" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/f74d99f3-edd7-4c34-bff2-57c62cb3dbe3">
+
+<img width="891" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/ce4df8e3-b339-4858-b82a-0b0083f6bb00">
 
 
 -------------------------------------------------------------------------------------------------------------------
