@@ -5,6 +5,7 @@ Features (so far):
 - Changing the powermode from the taskbar or in the app settings
 - Automatically going to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
 - Sending notifications if the powermode automatically changes.
+- This app creates an aoutstart entry in the task manager and will, by default, automatically start with Windows
 
 If you are using Windows 10, you will have to download the Segoe Fluent Icons Font. You can get it here: 
 https://learn.microsoft.com/de-ch/windows/apps/design/downloads/#fonts
