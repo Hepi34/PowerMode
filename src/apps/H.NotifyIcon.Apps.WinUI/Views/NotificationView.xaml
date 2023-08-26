@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="H.NotifyIcon.Apps.Views.NotificationView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    >
+    <Grid>
+        <StackPanel
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Spacing="20"
+            >
+
+            <TextBlock Text="Send notifications when the powermode automatically changes."/>
+
+            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch" x:Name="Noti" Margin="0, -20, 0, 20"/>
+
+            <CheckBox
+                x:Name="soundbox"
+                Content="Sound"
+                IsChecked="True"
+                />
+
+            <Button
+                Content="Clear notifications"
+                Click="ClearNotificationsButton_Click"
+                />
+
+        </StackPanel>
+    </Grid>
+</Page>

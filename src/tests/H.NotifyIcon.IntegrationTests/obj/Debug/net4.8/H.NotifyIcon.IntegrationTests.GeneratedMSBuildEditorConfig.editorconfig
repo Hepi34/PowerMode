@@ -1,0 +1,8 @@
+is_global = true
+build_property.HResourcesGenerator_Namespace = 
+build_property.HResourcesGenerator_Modifier = 
+build_property.HResourcesGenerator_ClassName = 
+build_property.HResourcesGenerator_AddResourcesFolder = true
+build_property.HResourcesGenerator_WithSystemDrawing = false
+build_property.RootNamespace = H.NotifyIcon.IntegrationTests
+build_property.ProjectDir = J:\Files\repos\H.NotifyIcon\src\tests\H.NotifyIcon.IntegrationTests\

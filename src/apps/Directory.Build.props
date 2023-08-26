@@ -1,0 +1,10 @@
+<Project>
+
+  <Import Project="..\Directory.Build.props" />
+  
+  <ItemGroup>
+    <None Remove="**\*.png;**\*.jpg;**\*.ico" />
+    <Resource Include="**\*.png;**\*.jpg;**\*.ico" />
+  </ItemGroup>
+
+</Project>

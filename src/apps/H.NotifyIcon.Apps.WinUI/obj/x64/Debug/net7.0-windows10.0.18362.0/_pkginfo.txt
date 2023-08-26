@@ -1,0 +1,1 @@
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppPackages\PowerModeWinUI_0.2.2.0_x64_Debug_Test\PowerModeWinUI_0.2.2.0_x64_Debug.msix

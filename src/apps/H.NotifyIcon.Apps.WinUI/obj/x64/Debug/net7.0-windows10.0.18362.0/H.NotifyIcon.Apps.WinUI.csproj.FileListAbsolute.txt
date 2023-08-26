@@ -1,0 +1,414 @@
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.exe
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.deps.json
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.runtimeconfig.json
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\resources.pri
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppxManifest.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\CommunityToolkit.Mvvm.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Abstractions.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Binder.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Abstractions.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Configuration.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Console.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Primitives.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Win32.SystemEvents.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\System.Drawing.Common.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinRT.Runtime.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.pri
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.AssemblyReference.cache
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.i.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.i.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.i.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.i.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlTypeInfo.g.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xaml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xaml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xaml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xaml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlSaveStateFile.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.GeneratedMSBuildEditorConfig.editorconfig
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfoInputs.cache
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfo.cs
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CoreCompileInputs.cache
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CopyComplete
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\refint\H.NotifyIcon.Apps.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.genruntimeconfig.cache
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ref\H.NotifyIcon.Apps.WinUI.dll
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt.intermediate
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\MultipleQualifiersPerDimensionFound.txt
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ProjectArchitectures.txt
+J:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinUIEx.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.exe
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.deps.json
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.runtimeconfig.json
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\resources.pri
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppxManifest.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\CommunityToolkit.Mvvm.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Configuration.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Console.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Primitives.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Win32.SystemEvents.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\System.Drawing.Common.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinUIEx.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinRT.Runtime.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.pri
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.AssemblyReference.cache
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.i.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.i.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.i.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.i.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlTypeInfo.g.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xaml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xaml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xaml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xaml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlSaveStateFile.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfoInputs.cache
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfo.cs
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CoreCompileInputs.cache
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CopyComplete
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\refint\H.NotifyIcon.Apps.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.genruntimeconfig.cache
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ref\H.NotifyIcon.Apps.WinUI.dll
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt.intermediate
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\MultipleQualifiersPerDimensionFound.txt
+D:\Files\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ProjectArchitectures.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.exe
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.deps.json
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.runtimeconfig.json
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\resources.pri
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppxManifest.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\CommunityToolkit.Mvvm.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Primitives.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\System.Drawing.Common.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinUIEx.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinRT.Runtime.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.pri
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.AssemblyReference.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlTypeInfo.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlSaveStateFile.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfoInputs.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfo.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CoreCompileInputs.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CopyComplete
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\refint\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.genruntimeconfig.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ref\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\MultipleQualifiersPerDimensionFound.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ProjectArchitectures.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\H.NotifyIcon\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.exe
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.deps.json
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.runtimeconfig.json
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\resources.pri
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppxManifest.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\CommunityToolkit.Mvvm.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Extensions.Primitives.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\System.Drawing.Common.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinUIEx.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\WinRT.Runtime.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.GeneratedIcons.System.Drawing.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.WinUI.pri
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.AssemblyReference.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.i.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlTypeInfo.g.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xaml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\App.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\MainView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\NotificationView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\PowerView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\Views\TrayIconView.xbf
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\XamlSaveStateFile.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfoInputs.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.AssemblyInfo.cs
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CoreCompileInputs.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.csproj.CopyComplete
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\refint\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.pdb
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\H.NotifyIcon.Apps.WinUI.genruntimeconfig.cache
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ref\H.NotifyIcon.Apps.WinUI.dll
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\priconfig.xml.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\unfiltered.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\filtered.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\excluded.layout.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\resources.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\pri.resfiles.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\qualifiers.txt.intermediate
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\MultipleQualifiersPerDimensionFound.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\ProjectArchitectures.txt

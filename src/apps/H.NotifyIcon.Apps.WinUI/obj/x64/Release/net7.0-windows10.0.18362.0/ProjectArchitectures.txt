@@ -1,0 +1,1 @@
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\PowerModeWinUI.csproj;x64
