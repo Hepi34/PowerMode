@@ -2,8 +2,8 @@
 Allows you to change the powermode from the taskbar, like you could in Windows 10 with the slider in the battery menu
 
 Features (so far):
-- Changing the powermode from the taskbar or in the app settings
-- Automatically going to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
+- Changing the powermode and switching the battery saver from the taskbar or in the app settings
+- Automatically switching to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
 - Sending notifications if the powermode automatically changes.
 - This app creates an autostart entry in the task manager and will automatically start with Windows by default.
 
@@ -17,7 +17,7 @@ TBA:
 - Support for AMD Laptop GPUs
 - Multi-language support
 
-Screenshots:
+Screenshots (old):
 
 <img width="186" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/f74d99f3-edd7-4c34-bff2-57c62cb3dbe3">
 
