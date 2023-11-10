@@ -18,7 +18,7 @@
             <ToggleSwitch x:ConnectionId='2' AutomationProperties.Name="simple ToggleSwitch" x:Name="Noti" Margin="0, -20, 0, 20"/>
 
             <CheckBox x:ConnectionId='3'
-                x:Name="SoundCheckBox"
+                x:Name="soundbox"
                 Content="Sound"
                 IsChecked="True"
                 />

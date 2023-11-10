@@ -716,6 +716,7 @@ namespace PowerModeWinUI.PowerModeWinUI_XamlTypeInfo
             case 41:   //  H.NotifyIcon.Apps.Views.PowerView
                 userType = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_41_PowerView;
+                userType.AddMemberName("TrayIcon");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1397,256 +1398,266 @@ namespace PowerModeWinUI.PowerModeWinUI_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_60_SettingsView_TrayIcon(object instance)
+        private object get_60_PowerView_TrayIcon(object instance)
+        {
+            var that = (global::H.NotifyIcon.Apps.Views.PowerView)instance;
+            return that.TrayIcon;
+        }
+        private void set_60_PowerView_TrayIcon(object instance, object Value)
+        {
+            var that = (global::H.NotifyIcon.Apps.Views.PowerView)instance;
+            that.TrayIcon = (global::H.NotifyIcon.TaskbarIcon)Value;
+        }
+        private object get_61_SettingsView_TrayIcon(object instance)
         {
             var that = (global::H.NotifyIcon.Apps.Views.SettingsView)instance;
             return that.TrayIcon;
         }
-        private void set_60_SettingsView_TrayIcon(object instance, object Value)
+        private void set_61_SettingsView_TrayIcon(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.Apps.Views.SettingsView)instance;
             that.TrayIcon = (global::H.NotifyIcon.TaskbarIcon)Value;
         }
-        private object get_61_TaskbarIcon_IconSource(object instance)
+        private object get_62_TaskbarIcon_IconSource(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.IconSource;
         }
-        private void set_61_TaskbarIcon_IconSource(object instance, object Value)
+        private void set_62_TaskbarIcon_IconSource(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.IconSource = (global::Microsoft.UI.Xaml.Media.ImageSource)Value;
         }
-        private object get_62_TaskbarIcon_ToolTipText(object instance)
+        private object get_63_TaskbarIcon_ToolTipText(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.ToolTipText;
         }
-        private void set_62_TaskbarIcon_ToolTipText(object instance, object Value)
+        private void set_63_TaskbarIcon_ToolTipText(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.ToolTipText = (global::System.String)Value;
         }
-        private object get_63_TaskbarIcon_MenuActivation(object instance)
+        private object get_64_TaskbarIcon_MenuActivation(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.MenuActivation;
         }
-        private void set_63_TaskbarIcon_MenuActivation(object instance, object Value)
+        private void set_64_TaskbarIcon_MenuActivation(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.MenuActivation = (global::H.NotifyIcon.Core.PopupActivationMode)Value;
         }
-        private object get_64_TaskbarIcon_NoLeftClickDelay(object instance)
+        private object get_65_TaskbarIcon_NoLeftClickDelay(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.NoLeftClickDelay;
         }
-        private void set_64_TaskbarIcon_NoLeftClickDelay(object instance, object Value)
+        private void set_65_TaskbarIcon_NoLeftClickDelay(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.NoLeftClickDelay = (global::System.Boolean)Value;
         }
-        private object get_65_TaskbarIcon_LeftClickCommand(object instance)
+        private object get_66_TaskbarIcon_LeftClickCommand(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.LeftClickCommand;
         }
-        private void set_65_TaskbarIcon_LeftClickCommand(object instance, object Value)
+        private void set_66_TaskbarIcon_LeftClickCommand(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.LeftClickCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_66_TaskbarIcon_RightClickCommand(object instance)
+        private object get_67_TaskbarIcon_RightClickCommand(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.RightClickCommand;
         }
-        private void set_66_TaskbarIcon_RightClickCommand(object instance, object Value)
+        private void set_67_TaskbarIcon_RightClickCommand(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.RightClickCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_67_TaskbarIcon_ContextMenuMode(object instance)
+        private object get_68_TaskbarIcon_ContextMenuMode(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.ContextMenuMode;
         }
-        private void set_67_TaskbarIcon_ContextMenuMode(object instance, object Value)
+        private void set_68_TaskbarIcon_ContextMenuMode(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.ContextMenuMode = (global::H.NotifyIcon.ContextMenuMode)Value;
         }
-        private object get_68_TaskbarIcon_IsCreated(object instance)
+        private object get_69_TaskbarIcon_IsCreated(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.IsCreated;
         }
-        private object get_69_TaskbarIcon_IsDisposed(object instance)
+        private object get_70_TaskbarIcon_IsDisposed(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.IsDisposed;
         }
-        private object get_70_TaskbarIcon_SupportsCustomToolTips(object instance)
+        private object get_71_TaskbarIcon_SupportsCustomToolTips(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.SupportsCustomToolTips;
         }
-        private object get_71_TaskbarIcon_DoubleClickCommand(object instance)
+        private object get_72_TaskbarIcon_DoubleClickCommand(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.DoubleClickCommand;
         }
-        private void set_71_TaskbarIcon_DoubleClickCommand(object instance, object Value)
+        private void set_72_TaskbarIcon_DoubleClickCommand(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.DoubleClickCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_72_TaskbarIcon_DoubleClickCommandParameter(object instance)
+        private object get_73_TaskbarIcon_DoubleClickCommandParameter(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.DoubleClickCommandParameter;
         }
-        private void set_72_TaskbarIcon_DoubleClickCommandParameter(object instance, object Value)
+        private void set_73_TaskbarIcon_DoubleClickCommandParameter(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.DoubleClickCommandParameter = (global::System.Object)Value;
         }
-        private object get_73_TaskbarIcon_LeftClickCommandParameter(object instance)
+        private object get_74_TaskbarIcon_LeftClickCommandParameter(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.LeftClickCommandParameter;
         }
-        private void set_73_TaskbarIcon_LeftClickCommandParameter(object instance, object Value)
+        private void set_74_TaskbarIcon_LeftClickCommandParameter(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.LeftClickCommandParameter = (global::System.Object)Value;
         }
-        private object get_74_TaskbarIcon_RightClickCommandParameter(object instance)
+        private object get_75_TaskbarIcon_RightClickCommandParameter(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.RightClickCommandParameter;
         }
-        private void set_74_TaskbarIcon_RightClickCommandParameter(object instance, object Value)
+        private void set_75_TaskbarIcon_RightClickCommandParameter(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.RightClickCommandParameter = (global::System.Object)Value;
         }
-        private object get_75_TaskbarIcon_MiddleClickCommand(object instance)
+        private object get_76_TaskbarIcon_MiddleClickCommand(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.MiddleClickCommand;
         }
-        private void set_75_TaskbarIcon_MiddleClickCommand(object instance, object Value)
+        private void set_76_TaskbarIcon_MiddleClickCommand(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.MiddleClickCommand = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_76_TaskbarIcon_MiddleClickCommandParameter(object instance)
+        private object get_77_TaskbarIcon_MiddleClickCommandParameter(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.MiddleClickCommandParameter;
         }
-        private void set_76_TaskbarIcon_MiddleClickCommandParameter(object instance, object Value)
+        private void set_77_TaskbarIcon_MiddleClickCommandParameter(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.MiddleClickCommandParameter = (global::System.Object)Value;
         }
-        private object get_77_TaskbarIcon_PopupActivation(object instance)
+        private object get_78_TaskbarIcon_PopupActivation(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.PopupActivation;
         }
-        private void set_77_TaskbarIcon_PopupActivation(object instance, object Value)
+        private void set_78_TaskbarIcon_PopupActivation(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.PopupActivation = (global::H.NotifyIcon.Core.PopupActivationMode)Value;
         }
-        private object get_78_TaskbarIcon_TrayPopup(object instance)
+        private object get_79_TaskbarIcon_TrayPopup(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.TrayPopup;
         }
-        private void set_78_TaskbarIcon_TrayPopup(object instance, object Value)
+        private void set_79_TaskbarIcon_TrayPopup(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.TrayPopup = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_79_TaskbarIcon_TrayPopupResolved(object instance)
+        private object get_80_TaskbarIcon_TrayPopupResolved(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.TrayPopupResolved;
         }
-        private object get_80_TaskbarIcon_PopupPlacement(object instance)
+        private object get_81_TaskbarIcon_PopupPlacement(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.PopupPlacement;
         }
-        private void set_80_TaskbarIcon_PopupPlacement(object instance, object Value)
+        private void set_81_TaskbarIcon_PopupPlacement(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.PopupPlacement = (global::Microsoft.UI.Xaml.Controls.Primitives.PlacementMode)Value;
         }
-        private object get_81_TaskbarIcon_PopupOffset(object instance)
+        private object get_82_TaskbarIcon_PopupOffset(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.PopupOffset;
         }
-        private void set_81_TaskbarIcon_PopupOffset(object instance, object Value)
+        private void set_82_TaskbarIcon_PopupOffset(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.PopupOffset = (global::Microsoft.UI.Xaml.Thickness)Value;
         }
-        private object get_82_TaskbarIcon_Id(object instance)
+        private object get_83_TaskbarIcon_Id(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.Id;
         }
-        private void set_82_TaskbarIcon_Id(object instance, object Value)
+        private void set_83_TaskbarIcon_Id(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.Id = (global::System.Guid)Value;
         }
-        private object get_83_TaskbarIcon_CustomName(object instance)
+        private object get_84_TaskbarIcon_CustomName(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.CustomName;
         }
-        private void set_83_TaskbarIcon_CustomName(object instance, object Value)
+        private void set_84_TaskbarIcon_CustomName(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.CustomName = (global::System.String)Value;
         }
-        private object get_84_TaskbarIcon_Icon(object instance)
+        private object get_85_TaskbarIcon_Icon(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.Icon;
         }
-        private void set_84_TaskbarIcon_Icon(object instance, object Value)
+        private void set_85_TaskbarIcon_Icon(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.Icon = (global::System.Drawing.Icon)Value;
         }
-        private object get_85_TaskbarIcon_TrayToolTip(object instance)
+        private object get_86_TaskbarIcon_TrayToolTip(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.TrayToolTip;
         }
-        private void set_85_TaskbarIcon_TrayToolTip(object instance, object Value)
+        private void set_86_TaskbarIcon_TrayToolTip(object instance, object Value)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             that.TrayToolTip = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_86_TaskbarIcon_TrayToolTipResolved(object instance)
+        private object get_87_TaskbarIcon_TrayToolTipResolved(object instance)
         {
             var that = (global::H.NotifyIcon.TaskbarIcon)instance;
             return that.TrayToolTipResolved;
         }
-        private object get_87_TaskbarIcon_ParentTaskbarIcon(object instance)
+        private object get_88_TaskbarIcon_ParentTaskbarIcon(object instance)
         {
             return global::H.NotifyIcon.TaskbarIcon.GetParentTaskbarIcon((global::Microsoft.UI.Xaml.DependencyObject)instance);
         }
-        private void set_87_TaskbarIcon_ParentTaskbarIcon(object instance, object Value)
+        private void set_88_TaskbarIcon_ParentTaskbarIcon(object instance, object Value)
         {
             global::H.NotifyIcon.TaskbarIcon.SetParentTaskbarIcon((global::Microsoft.UI.Xaml.DependencyObject)instance, (global::H.NotifyIcon.TaskbarIcon)Value);
         }
@@ -2074,189 +2085,195 @@ namespace PowerModeWinUI.PowerModeWinUI_XamlTypeInfo
                 xamlMember.Getter = get_59_RadioButtons_SelectedItem;
                 xamlMember.Setter = set_59_RadioButtons_SelectedItem;
                 break;
+            case "H.NotifyIcon.Apps.Views.PowerView.TrayIcon":
+                userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.Apps.Views.PowerView");
+                xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayIcon", "H.NotifyIcon.TaskbarIcon");
+                xamlMember.Getter = get_60_PowerView_TrayIcon;
+                xamlMember.Setter = set_60_PowerView_TrayIcon;
+                break;
             case "H.NotifyIcon.Apps.Views.SettingsView.TrayIcon":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.Apps.Views.SettingsView");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayIcon", "H.NotifyIcon.TaskbarIcon");
-                xamlMember.Getter = get_60_SettingsView_TrayIcon;
-                xamlMember.Setter = set_60_SettingsView_TrayIcon;
+                xamlMember.Getter = get_61_SettingsView_TrayIcon;
+                xamlMember.Setter = set_61_SettingsView_TrayIcon;
                 break;
             case "H.NotifyIcon.TaskbarIcon.IconSource":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Media.ImageSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_TaskbarIcon_IconSource;
-                xamlMember.Setter = set_61_TaskbarIcon_IconSource;
+                xamlMember.Getter = get_62_TaskbarIcon_IconSource;
+                xamlMember.Setter = set_62_TaskbarIcon_IconSource;
                 break;
             case "H.NotifyIcon.TaskbarIcon.ToolTipText":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "ToolTipText", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_TaskbarIcon_ToolTipText;
-                xamlMember.Setter = set_62_TaskbarIcon_ToolTipText;
+                xamlMember.Getter = get_63_TaskbarIcon_ToolTipText;
+                xamlMember.Setter = set_63_TaskbarIcon_ToolTipText;
                 break;
             case "H.NotifyIcon.TaskbarIcon.MenuActivation":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "MenuActivation", "H.NotifyIcon.Core.PopupActivationMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_63_TaskbarIcon_MenuActivation;
-                xamlMember.Setter = set_63_TaskbarIcon_MenuActivation;
+                xamlMember.Getter = get_64_TaskbarIcon_MenuActivation;
+                xamlMember.Setter = set_64_TaskbarIcon_MenuActivation;
                 break;
             case "H.NotifyIcon.TaskbarIcon.NoLeftClickDelay":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "NoLeftClickDelay", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_64_TaskbarIcon_NoLeftClickDelay;
-                xamlMember.Setter = set_64_TaskbarIcon_NoLeftClickDelay;
+                xamlMember.Getter = get_65_TaskbarIcon_NoLeftClickDelay;
+                xamlMember.Setter = set_65_TaskbarIcon_NoLeftClickDelay;
                 break;
             case "H.NotifyIcon.TaskbarIcon.LeftClickCommand":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "LeftClickCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_65_TaskbarIcon_LeftClickCommand;
-                xamlMember.Setter = set_65_TaskbarIcon_LeftClickCommand;
+                xamlMember.Getter = get_66_TaskbarIcon_LeftClickCommand;
+                xamlMember.Setter = set_66_TaskbarIcon_LeftClickCommand;
                 break;
             case "H.NotifyIcon.TaskbarIcon.RightClickCommand":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "RightClickCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_66_TaskbarIcon_RightClickCommand;
-                xamlMember.Setter = set_66_TaskbarIcon_RightClickCommand;
+                xamlMember.Getter = get_67_TaskbarIcon_RightClickCommand;
+                xamlMember.Setter = set_67_TaskbarIcon_RightClickCommand;
                 break;
             case "H.NotifyIcon.TaskbarIcon.ContextMenuMode":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "ContextMenuMode", "H.NotifyIcon.ContextMenuMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_TaskbarIcon_ContextMenuMode;
-                xamlMember.Setter = set_67_TaskbarIcon_ContextMenuMode;
+                xamlMember.Getter = get_68_TaskbarIcon_ContextMenuMode;
+                xamlMember.Setter = set_68_TaskbarIcon_ContextMenuMode;
                 break;
             case "H.NotifyIcon.TaskbarIcon.IsCreated":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "IsCreated", "Boolean");
-                xamlMember.Getter = get_68_TaskbarIcon_IsCreated;
+                xamlMember.Getter = get_69_TaskbarIcon_IsCreated;
                 xamlMember.SetIsReadOnly();
                 break;
             case "H.NotifyIcon.TaskbarIcon.IsDisposed":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "IsDisposed", "Boolean");
-                xamlMember.Getter = get_69_TaskbarIcon_IsDisposed;
+                xamlMember.Getter = get_70_TaskbarIcon_IsDisposed;
                 xamlMember.SetIsReadOnly();
                 break;
             case "H.NotifyIcon.TaskbarIcon.SupportsCustomToolTips":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "SupportsCustomToolTips", "Boolean");
-                xamlMember.Getter = get_70_TaskbarIcon_SupportsCustomToolTips;
+                xamlMember.Getter = get_71_TaskbarIcon_SupportsCustomToolTips;
                 xamlMember.SetIsReadOnly();
                 break;
             case "H.NotifyIcon.TaskbarIcon.DoubleClickCommand":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "DoubleClickCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_TaskbarIcon_DoubleClickCommand;
-                xamlMember.Setter = set_71_TaskbarIcon_DoubleClickCommand;
+                xamlMember.Getter = get_72_TaskbarIcon_DoubleClickCommand;
+                xamlMember.Setter = set_72_TaskbarIcon_DoubleClickCommand;
                 break;
             case "H.NotifyIcon.TaskbarIcon.DoubleClickCommandParameter":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "DoubleClickCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_TaskbarIcon_DoubleClickCommandParameter;
-                xamlMember.Setter = set_72_TaskbarIcon_DoubleClickCommandParameter;
+                xamlMember.Getter = get_73_TaskbarIcon_DoubleClickCommandParameter;
+                xamlMember.Setter = set_73_TaskbarIcon_DoubleClickCommandParameter;
                 break;
             case "H.NotifyIcon.TaskbarIcon.LeftClickCommandParameter":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "LeftClickCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_TaskbarIcon_LeftClickCommandParameter;
-                xamlMember.Setter = set_73_TaskbarIcon_LeftClickCommandParameter;
+                xamlMember.Getter = get_74_TaskbarIcon_LeftClickCommandParameter;
+                xamlMember.Setter = set_74_TaskbarIcon_LeftClickCommandParameter;
                 break;
             case "H.NotifyIcon.TaskbarIcon.RightClickCommandParameter":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "RightClickCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_TaskbarIcon_RightClickCommandParameter;
-                xamlMember.Setter = set_74_TaskbarIcon_RightClickCommandParameter;
+                xamlMember.Getter = get_75_TaskbarIcon_RightClickCommandParameter;
+                xamlMember.Setter = set_75_TaskbarIcon_RightClickCommandParameter;
                 break;
             case "H.NotifyIcon.TaskbarIcon.MiddleClickCommand":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "MiddleClickCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_TaskbarIcon_MiddleClickCommand;
-                xamlMember.Setter = set_75_TaskbarIcon_MiddleClickCommand;
+                xamlMember.Getter = get_76_TaskbarIcon_MiddleClickCommand;
+                xamlMember.Setter = set_76_TaskbarIcon_MiddleClickCommand;
                 break;
             case "H.NotifyIcon.TaskbarIcon.MiddleClickCommandParameter":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "MiddleClickCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_76_TaskbarIcon_MiddleClickCommandParameter;
-                xamlMember.Setter = set_76_TaskbarIcon_MiddleClickCommandParameter;
+                xamlMember.Getter = get_77_TaskbarIcon_MiddleClickCommandParameter;
+                xamlMember.Setter = set_77_TaskbarIcon_MiddleClickCommandParameter;
                 break;
             case "H.NotifyIcon.TaskbarIcon.PopupActivation":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "PopupActivation", "H.NotifyIcon.Core.PopupActivationMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_TaskbarIcon_PopupActivation;
-                xamlMember.Setter = set_77_TaskbarIcon_PopupActivation;
+                xamlMember.Getter = get_78_TaskbarIcon_PopupActivation;
+                xamlMember.Setter = set_78_TaskbarIcon_PopupActivation;
                 break;
             case "H.NotifyIcon.TaskbarIcon.TrayPopup":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayPopup", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_TaskbarIcon_TrayPopup;
-                xamlMember.Setter = set_78_TaskbarIcon_TrayPopup;
+                xamlMember.Getter = get_79_TaskbarIcon_TrayPopup;
+                xamlMember.Setter = set_79_TaskbarIcon_TrayPopup;
                 break;
             case "H.NotifyIcon.TaskbarIcon.TrayPopupResolved":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayPopupResolved", "Microsoft.UI.Xaml.Controls.Primitives.Popup");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_TaskbarIcon_TrayPopupResolved;
+                xamlMember.Getter = get_80_TaskbarIcon_TrayPopupResolved;
                 xamlMember.SetIsReadOnly();
                 break;
             case "H.NotifyIcon.TaskbarIcon.PopupPlacement":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "PopupPlacement", "Microsoft.UI.Xaml.Controls.Primitives.PlacementMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_TaskbarIcon_PopupPlacement;
-                xamlMember.Setter = set_80_TaskbarIcon_PopupPlacement;
+                xamlMember.Getter = get_81_TaskbarIcon_PopupPlacement;
+                xamlMember.Setter = set_81_TaskbarIcon_PopupPlacement;
                 break;
             case "H.NotifyIcon.TaskbarIcon.PopupOffset":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "PopupOffset", "Microsoft.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_81_TaskbarIcon_PopupOffset;
-                xamlMember.Setter = set_81_TaskbarIcon_PopupOffset;
+                xamlMember.Getter = get_82_TaskbarIcon_PopupOffset;
+                xamlMember.Setter = set_82_TaskbarIcon_PopupOffset;
                 break;
             case "H.NotifyIcon.TaskbarIcon.Id":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "Id", "Guid");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_82_TaskbarIcon_Id;
-                xamlMember.Setter = set_82_TaskbarIcon_Id;
+                xamlMember.Getter = get_83_TaskbarIcon_Id;
+                xamlMember.Setter = set_83_TaskbarIcon_Id;
                 break;
             case "H.NotifyIcon.TaskbarIcon.CustomName":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "CustomName", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_83_TaskbarIcon_CustomName;
-                xamlMember.Setter = set_83_TaskbarIcon_CustomName;
+                xamlMember.Getter = get_84_TaskbarIcon_CustomName;
+                xamlMember.Setter = set_84_TaskbarIcon_CustomName;
                 break;
             case "H.NotifyIcon.TaskbarIcon.Icon":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "Icon", "System.Drawing.Icon");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_84_TaskbarIcon_Icon;
-                xamlMember.Setter = set_84_TaskbarIcon_Icon;
+                xamlMember.Getter = get_85_TaskbarIcon_Icon;
+                xamlMember.Setter = set_85_TaskbarIcon_Icon;
                 break;
             case "H.NotifyIcon.TaskbarIcon.TrayToolTip":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayToolTip", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_85_TaskbarIcon_TrayToolTip;
-                xamlMember.Setter = set_85_TaskbarIcon_TrayToolTip;
+                xamlMember.Getter = get_86_TaskbarIcon_TrayToolTip;
+                xamlMember.Setter = set_86_TaskbarIcon_TrayToolTip;
                 break;
             case "H.NotifyIcon.TaskbarIcon.TrayToolTipResolved":
                 userType = (global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("H.NotifyIcon.TaskbarIcon");
                 xamlMember = new global::PowerModeWinUI.PowerModeWinUI_XamlTypeInfo.XamlMember(this, "TrayToolTipResolved", "Microsoft.UI.Xaml.Controls.ToolTip");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_86_TaskbarIcon_TrayToolTipResolved;
+                xamlMember.Getter = get_87_TaskbarIcon_TrayToolTipResolved;
                 xamlMember.SetIsReadOnly();
                 break;
             case "H.NotifyIcon.TaskbarIcon.ParentTaskbarIcon":
@@ -2265,8 +2282,8 @@ namespace PowerModeWinUI.PowerModeWinUI_XamlTypeInfo
                 xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.DependencyObject");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_87_TaskbarIcon_ParentTaskbarIcon;
-                xamlMember.Setter = set_87_TaskbarIcon_ParentTaskbarIcon;
+                xamlMember.Getter = get_88_TaskbarIcon_ParentTaskbarIcon;
+                xamlMember.Setter = set_88_TaskbarIcon_ParentTaskbarIcon;
                 break;
             }
             return xamlMember;

@@ -24,6 +24,8 @@
                 <ToggleMenuFlyoutItem x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False" Click="Bett_Click"/>
                 <ToggleMenuFlyoutItem x:Name="BestPerformanceItem" Text="Best Performance" IsChecked="False" Click="Best_Click"/>
                 <MenuFlyoutSeparator />
+                <ToggleMenuFlyoutItem x:Name="BatterySaverItem" Text="Battery Saver" IsChecked="False" Click="Battery_Click"/>
+                <MenuFlyoutSeparator />
                 <MenuFlyoutItem Command="{x:Bind ShowHideWindowCommand}" Text="Show/Hide Settings"/>
                 <MenuFlyoutSeparator />
                 <MenuFlyoutItem Command="{x:Bind ExitApplicationCommand}" Text="Exit"/>

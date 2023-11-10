@@ -24,9 +24,11 @@
                 <ToggleMenuFlyoutItem x:ConnectionId='5' x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False"                   />
                 <ToggleMenuFlyoutItem x:ConnectionId='6' x:Name="BestPerformanceItem" Text="Best Performance" IsChecked="False"                   />
                 <MenuFlyoutSeparator />
-                <MenuFlyoutItem x:ConnectionId='7'                                          Text="Show/Hide Settings"/>
+                <ToggleMenuFlyoutItem x:ConnectionId='7' x:Name="BatterySaverItem" Text="Battery Saver" IsChecked="False"                      />
                 <MenuFlyoutSeparator />
-                <MenuFlyoutItem x:ConnectionId='8'                                           Text="Exit"/>
+                <MenuFlyoutItem x:ConnectionId='8'                                          Text="Show/Hide Settings"/>
+                <MenuFlyoutSeparator />
+                <MenuFlyoutItem x:ConnectionId='9'                                           Text="Exit"/>
             </MenuFlyout>
         </tb:TaskbarIcon.ContextFlyout>
     </tb:TaskbarIcon>

@@ -18,8 +18,9 @@ using H.NotifyIcon.Apps;
     using NvAPIWrapper.Native.GPU;
 using H.NotifyIcon;
 using System.Threading;
+using Windows.System.Power;
 
-    namespace H.NotifyIcon.Apps.Views;
+namespace H.NotifyIcon.Apps.Views;
 
     public sealed partial class PowerView
     {
@@ -31,6 +32,12 @@ using System.Threading;
         bool ignorefirstp;
     bool sentnoti = false;
 
+    EnergySaverStatus GetCurrentEnergySaverStatus()
+    {
+        // Your code to obtain the current status goes here
+        // For example, you might use the PowerManager class
+        return PowerManager.EnergySaverStatus;
+    }
 
     public PowerView()
         {
@@ -135,10 +142,20 @@ using System.Threading;
         public async void StartGPUChecking()
         {
 
-        CancellationToken globalToken = App.GlobalCancellationToken;
+        EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
 
-        while (!globalToken.IsCancellationRequested)
+        if (currentStatus == EnergySaverStatus.On)
         {
+            //nothing
+            await Task.Delay(5000);
+        }
+        else if (currentStatus == EnergySaverStatus.Off || currentStatus == EnergySaverStatus.Disabled)
+        {
+
+            CancellationToken globalToken = App.GlobalCancellationToken;
+
+            while (!globalToken.IsCancellationRequested)
+            {
                 bool nvidia = GpuType();
 
                 if (!nvidia & executed)
@@ -166,19 +183,19 @@ using System.Threading;
 
 
                         object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
-                        
+
 
                         if (u != null && u is bool onValue)
                         {
                             if (onValue)
                             {
-                            if (!sentnoti)
-                            {
-                                await Task.Run(() => Notification());
-                                sentnoti = true;
-                            }
+                                if (!sentnoti)
+                                {
+                                    await Task.Run(() => Notification());
+                                    sentnoti = true;
+                                }
 
-                        }
+                            }
                         }
                     }
 
@@ -187,14 +204,14 @@ using System.Threading;
                 }
                 else if (executed == false)
                 {
-                SetPowerMode.PowerSetActiveOverlayScheme(saved);
-                executed = true;
-                sentnoti = false;
-                await Task.Run(() => Notification());
+                    SetPowerMode.PowerSetActiveOverlayScheme(saved);
+                    executed = true;
+                    sentnoti = false;
+                    await Task.Run(() => Notification());
                 }
-            await Task.Delay(5000); // Wait before the next check
+                await Task.Delay(5000); // Wait before the next check
             }
-
+        }
 
         }
 
@@ -253,7 +270,8 @@ using System.Threading;
         {
             bool temp;
 
-            if (!wait)
+
+        if (!wait)
             {
 
                 if (dgpu.IsOn)

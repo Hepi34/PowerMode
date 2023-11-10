@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0vv6GdOVGgNjRxbiMFV/Z0goo8d4K7ghKWVYWAR9tkP9Be+ss0HpqP1RUJqtYsAWNEPqYVYueDaOui+GrGUY/Q==",
+  "dgSpecHash": "0wMnIxjUwhq3X65uOASldD7H8AlAvEO9FGDAi4LKf+A1A4MO+8tdwhi11mE1NQZwu43TtUUeO4iLXGL8kKFVaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerModeWinUI\\src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
+  "projectFilePath": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noahj\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.1\\communitytoolkit.mvvm.8.2.1.nupkg.sha512",
     "C:\\Users\\noahj\\.nuget\\packages\\consoleutilities\\1.0.0\\consoleutilities.1.0.0.nupkg.sha512",
