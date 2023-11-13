@@ -184,6 +184,9 @@
     <AppxPackagedFile Include="C:\Users\noahj\.nuget\packages\winuiex\2.2.0\lib\net6.0-windows10.0.18362\WinUIEx.pri">
       <PackagePath>WinUIEx.pri</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\battsaver.ico">
+      <PackagePath>Assets\battsaver.ico</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>

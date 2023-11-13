@@ -30,7 +30,7 @@
                     />
             </RadioButtons>
 
-            <TextBlock Text="Automatically switch to best performance mode when dGPU load is detected (Only works with nVidia GPUs)" Margin="0,30,0,0"/>
+            <TextBlock Text="Automatically switch to best performance mode when dGPU load is detected (Only works with nVidia GPUs). This will be disabled if battery saver is turned on." Margin="0,30,0,0"/>
 
             <ToggleSwitch x:ConnectionId='3' AutomationProperties.Name="simple ToggleSwitch" x:Name="dgpu" Margin="0,-20,0,0" />
 

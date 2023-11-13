@@ -36,6 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Assets\battsaver.ico" />
     <None Remove="Assets\LargeTile.scale-100.png" />
     <None Remove="Assets\LargeTile.scale-125.png" />
     <None Remove="Assets\LargeTile.scale-150.png" />
@@ -83,6 +84,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Remove="Assets\battsaver.ico" />
     <Resource Remove="Assets\LargeTile.scale-100.png" />
     <Resource Remove="Assets\LargeTile.scale-125.png" />
     <Resource Remove="Assets\LargeTile.scale-150.png" />

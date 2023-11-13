@@ -18,24 +18,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppX</LayoutDir>
-    <RegisteredManifestChecksum>44E6E86FD096E0147E64DC9E71B3E23C1F5C9EA459BD923BC39FA92E08F7E38B</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>2cb30a54-ea89-4cb6-868d-f55c7d5ee62c_1.0.1.0_x64__9r3f9xs6681rj</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>9835441F088F9D0D04E6CEC823F272839895E86CBCCC41D85DC7528AAFD9EF62</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2cb30a54-ea89-4cb6-868d-f55c7d5ee62c_1.1.2.0_x64__9r3f9xs6681rj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2cb30a54-ea89-4cb6-868d-f55c7d5ee62c_9r3f9xs6681rj!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2cb30a54-ea89-4cb6-868d-f55c7d5ee62c</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Hepi34</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <RegisteredVersion>1.1.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-10T12:15:16.732</Modified>
+      <Modified>2023-11-13T07:48:58.920</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-10T12:15:16.491</Modified>
+      <Modified>2023-11-13T07:48:58.790</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\PowerModeWinUI.runtimeconfig.json">
       <PackagePath>PowerModeWinUI.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\PowerModeWinUI.dll">
       <PackagePath>PowerModeWinUI.dll</PackagePath>
-      <Modified>2023-11-10T12:15:16.067</Modified>
+      <Modified>2023-11-13T07:48:58.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Debug\net7.0-windows10.0.18362.0\apphost.exe">
       <PackagePath>PowerModeWinUI.exe</PackagePath>
-      <Modified>2023-11-10T12:15:16.101</Modified>
+      <Modified>2023-11-13T07:48:58.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\bin\x64\Debug\net7.0-windows10.0.18362.0\PowerModeWinUI.deps.json">
       <PackagePath>PowerModeWinUI.deps.json</PackagePath>
-      <Modified>2023-09-01T23:02:34.000</Modified>
+      <Modified>2023-11-12T18:58:14.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.18362.29\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -244,6 +244,10 @@
     <AppxPackagedFile Include="C:\Users\noahj\.nuget\packages\winuiex\2.2.0\lib\net6.0-windows10.0.18362\WinUIEx.pri">
       <PackagePath>WinUIEx.pri</PackagePath>
       <Modified>2023-05-10T22:25:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\battsaver.ico">
+      <PackagePath>Assets\battsaver.ico</PackagePath>
+      <Modified>2023-11-10T23:18:52.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>

@@ -5,12 +5,24 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:tb="using:H.NotifyIcon"
+    xmlns:converters="using:H.NotifyIcon.Apps.Converters"
+    
     mc:Ignorable="d"
+    
+    
     >
+    <UserControl.Resources>
+        <converters:BoolToImageSourceConverter
+            x:Key="BoolToImageSourceConverter"
+            FalseImage="ms-appx:///Assets/powermode.ico"
+            TrueImage="ms-appx:///Assets/battsaver.ico"
+            />
+    </UserControl.Resources>
+    
     <tb:TaskbarIcon
         x:Name="TrayIcon"
         x:FieldModifier="public"
-        IconSource="ms-appx:///Assets/powermode.ico"
+        IconSource="{x:Bind IsBatterySaverOn, Mode=OneWay, Converter={StaticResource BoolToImageSourceConverter}}"
         ToolTipText="Change the windows powermode from the taskbar"
         MenuActivation="LeftOrRightClick"
         NoLeftClickDelay="True"
@@ -18,6 +30,7 @@
             RightClickCommand="{x:Bind LoadCommand}"
         ContextMenuMode="SecondWindow"
         >
+        
         <tb:TaskbarIcon.ContextFlyout>
             <MenuFlyout x:Name="MenuFlyout1" AreOpenCloseAnimationsEnabled="True">
                 <ToggleMenuFlyoutItem x:Name="RecommendedItem" Text="Recommended" IsChecked="False" Click="Recom_Click"/>

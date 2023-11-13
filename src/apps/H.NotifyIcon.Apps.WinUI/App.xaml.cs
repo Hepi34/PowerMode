@@ -1,5 +1,6 @@
 ﻿using H.NotifyIcon.Apps.Views;
 using Microsoft.UI.Xaml;
+using System.Diagnostics;
 using System.Threading;
 
 #nullable enable
@@ -8,6 +9,7 @@ namespace H.NotifyIcon.Apps;
 
 public sealed partial class App
 {
+
     #region Properties
 
     public static Window? MainWindow { get; set; }
@@ -80,8 +82,8 @@ public sealed partial class App
 
         MainWindow.Hide();
 
-
     }
 
     #endregion
 }
+

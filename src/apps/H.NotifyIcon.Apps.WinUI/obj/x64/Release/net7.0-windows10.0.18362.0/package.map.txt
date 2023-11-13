@@ -53,6 +53,7 @@
 "C:\Users\noahj\.nuget\packages\system.management\7.0.2\runtimes\win\lib\net7.0\System.Management.dll" "runtimes\win\lib\net7.0\System.Management.dll"
 "C:\Users\noahj\.nuget\packages\h.notifyicon.winui\2.0.115\lib\net7.0-windows10.0.17763\H.NotifyIcon.WinUI.pri" "H.NotifyIcon.WinUI.pri"
 "C:\Users\noahj\.nuget\packages\winuiex\2.2.0\lib\net6.0-windows10.0.18362\WinUIEx.pri" "WinUIEx.pri"
+"C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\battsaver.ico" "Assets\battsaver.ico"
 "C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\LargeTile.scale-100.png" "Assets\LargeTile.scale-100.png"
 "C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\LargeTile.scale-125.png" "Assets\LargeTile.scale-125.png"
 "C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Assets\LargeTile.scale-150.png" "Assets\LargeTile.scale-150.png"

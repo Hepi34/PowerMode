@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="2cb30a54-ea89-4cb6-868d-f55c7d5ee62c" Publisher="CN=Hepi34" Version="1.1.2.0" ProcessorArchitecture="x64" />
+  <Identity Name="2cb30a54-ea89-4cb6-868d-f55c7d5ee62c" Publisher="CN=Hepi34" Version="1.2.1.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Hepi34/PowerMode</DisplayName>
     <PublisherDisplayName>Hepi34</PublisherDisplayName>
