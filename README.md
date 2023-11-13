@@ -6,7 +6,7 @@ Features (so far):
 - Automatically switching to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
 - Sending notifications if the powermode automatically changes.
 - This app creates an autostart entry in the task manager and will automatically start with Windows by default.
-- The icon will show if the battery saver is enabled (or not)
+- The icon will show if the battery saver is enabled (or not).
 
 If you are using Windows 10, you will have to download the Segoe Fluent Icons Font. You can get it here: 
 https://learn.microsoft.com/de-ch/windows/apps/design/downloads/#fonts
