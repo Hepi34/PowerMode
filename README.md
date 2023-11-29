@@ -18,6 +18,9 @@ TBA:
 - Support for AMD Laptop GPUs
 - Multi-language support
 
+Current bugs:
+- Battery saver may not switch on or off correctly. To temponarily fix this, turn it on or off once from the settings app.
+
 Screenshots (old):
 
 <img width="186" alt="image" src="https://github.com/Hepi34/PowerMode/assets/105777839/f74d99f3-edd7-4c34-bff2-57c62cb3dbe3">
