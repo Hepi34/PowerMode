@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y8d1hptEVPB3CgPokHGFldkjSMkNdZHdWxMPuS1bejg6tA0ENYbu6DIbkDD60I789T4I5BPJmWOZQA01HXbCcA==",
+  "dgSpecHash": "FGNYSUwP4OgDiFFQN7UzNe7KQzpUJH585VuwJXboZ86ho9CECemnxapmgzyHF+G0Hu6jqlQ7zzyj77iboYAq4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
   "expectedPackageFiles": [
@@ -31,16 +31,22 @@
     "C:\\Users\\noahj\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\noahj\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\noahj\\.nuget\\packages\\winuiex\\2.2.0\\winuiex.2.2.0.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.10\\microsoft.netcore.app.runtime.win-x86.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.18362.29\\microsoft.windows.sdk.net.ref.10.0.18362.29.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x86.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\7.0.10\\microsoft.netcore.app.runtime.win-arm64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-arm64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-arm64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
-    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.10.nupkg.sha512"
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.19\\microsoft.netcore.app.runtime.win-x86.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.18362.31\\microsoft.windows.sdk.net.ref.10.0.18362.31.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.19\\microsoft.aspnetcore.app.runtime.win-x86.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\7.0.19\\microsoft.netcore.app.host.win-arm64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\7.0.19\\microsoft.netcore.app.runtime.win-arm64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.19\\microsoft.aspnetcore.app.runtime.win-x64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\7.0.19\\microsoft.windowsdesktop.app.runtime.win-arm64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.19\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\7.0.19\\microsoft.aspnetcore.app.runtime.win-arm64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.19\\microsoft.netcore.app.runtime.win-x64.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.19\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.19.nupkg.sha512",
+    "C:\\Users\\noahj\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\7.0.19\\microsoft.netcore.app.host.win-x86.7.0.19.nupkg.sha512"
   ],
   "logs": []
 }

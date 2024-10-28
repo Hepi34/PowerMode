@@ -190,7 +190,6 @@ C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.AssemblyInfoInputs.cache
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.AssemblyInfo.cs
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.csproj.CoreCompileInputs.cache
-C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.csproj.CopyComplete
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.dll
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\refint\PowerModeWinUI.dll
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.pdb
@@ -212,3 +211,6 @@ C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\ProjectArchitectures.txt
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.sourcelink.json
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerMod.CDFE6810.Up2Date
+C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\obj\x64\Release\net7.0-windows10.0.18362.0\win10-x64\PowerModeWinUI.genpublishdeps.cache

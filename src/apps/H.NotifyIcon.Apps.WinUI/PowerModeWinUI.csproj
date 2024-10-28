@@ -19,15 +19,15 @@
 	  <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
 	  <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
 	  <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
-	  <PackageCertificateThumbprint>1ED835AD1188A5FA7A0B38D8F871394E3297E6E9</PackageCertificateThumbprint>
 	  <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
 	  <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
 	  <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
 	  <GenerateTestArtifacts>True</GenerateTestArtifacts>
-	  <AppxBundle>Always</AppxBundle>
+	  <AppxBundle>Auto</AppxBundle>
 	  <AppInstallerUri>C:/ProgramFiles/Hepi34/PowerMode</AppInstallerUri>
 	  <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
 	  <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+	  <PackageCertificateKeyFile>PowerModeWinUI_TemporaryKey.pfx</PackageCertificateKeyFile>
     <!--<WindowsPackageType>None</WindowsPackageType>-->
   </PropertyGroup>
 

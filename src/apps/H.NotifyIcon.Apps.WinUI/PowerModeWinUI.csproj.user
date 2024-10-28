@@ -13,7 +13,7 @@
     <LargeTileSource>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\Assets\powermode.png</LargeTileSource>
     <AppIconSource>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\Assets\powermode.png</AppIconSource>
     <SplashScreenSource>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\Assets\powermode.png</SplashScreenSource>
-    <_LastSelectedProfileId>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Properties\PublishProfiles\ClickOnceProfile1.pubxml</_LastSelectedProfileId>
+    <_LastSelectedProfileId>C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerMode\src\apps\H.NotifyIcon.Apps.WinUI\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
     <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
