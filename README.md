@@ -22,6 +22,7 @@ TBA:
 
 Current bugs:
 - Battery saver may not switch on or off correctly. To temponarily fix this, turn it on or off once from the settings app.
+- The app may show the wrong modes on startup. Please close the app and reopen it. This only has to be done once after installation.
 
 Screenshots (old):
 
