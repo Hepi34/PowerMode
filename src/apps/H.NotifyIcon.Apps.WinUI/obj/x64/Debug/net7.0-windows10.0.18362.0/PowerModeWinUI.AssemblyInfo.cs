@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PowerModeWinUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3c32fa937dc503e83fc20672673459a539fe4be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbc573adb15a2da47fc00b3eeb36f7edcbf47a10")]
 [assembly: System.Reflection.AssemblyProductAttribute("PowerModeWinUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PowerModeWinUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

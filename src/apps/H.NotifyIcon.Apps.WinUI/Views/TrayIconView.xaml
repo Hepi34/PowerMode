@@ -33,8 +33,9 @@
         
         <tb:TaskbarIcon.ContextFlyout>
             <MenuFlyout x:Name="MenuFlyout1" AreOpenCloseAnimationsEnabled="True">
-                <ToggleMenuFlyoutItem x:Name="RecommendedItem" Text="Recommended" IsChecked="False" Click="Recom_Click"/>
-                <ToggleMenuFlyoutItem x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False" Click="Bett_Click"/>
+                <ToggleMenuFlyoutItem x:Name="BetterBatteryItem" Text="Better Battery" IsChecked="False" Click="BettB_Click" Visibility="{x:Bind BetterBatteryVisibility}"/>
+                <ToggleMenuFlyoutItem x:Name="RecommendedItem" Text="{x:Bind RecomName}" IsChecked="False" Click="Recom_Click"/>
+                <ToggleMenuFlyoutItem x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False" Click="Bett_Click" Visibility="{x:Bind BetterPerformanceVisibility}"/>
                 <ToggleMenuFlyoutItem x:Name="BestPerformanceItem" Text="Best Performance" IsChecked="False" Click="Best_Click"/>
                 <MenuFlyoutSeparator />
                 <ToggleMenuFlyoutItem x:Name="BatterySaverItem" Text="Battery Saver" IsChecked="False" Click="Battery_Click"/>

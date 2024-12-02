@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\setpowermode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\setpowermode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\powerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\setpowermode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\setpowermode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\powermodewinui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\powermodewinui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\booltoimagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\booltoimagesourceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\trayiconview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|c:\\users\\noahj\\onedrive\\dokumente\\visual studio 2022\\repos\\powermode\\src\\apps\\h.notifyicon.apps.winui\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{665598EE-10CA-4842-B169-F5A6EF483C7F}|src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj|solutionrelative:src\\apps\\h.notifyicon.apps.winui\\views\\settingsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +50,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\App.xaml.cs",
+              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\App.xaml.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAgwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:25:27.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PowerModeWinUI.csproj",
               "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
               "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
@@ -54,38 +71,88 @@
               "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\PowerModeWinUI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-20T01:05:52.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T01:05:52.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PowerView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml.cs",
               "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml.cs",
               "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml.cs",
               "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T09:13:26.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PowerView.xaml",
               "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml",
               "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml",
               "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml",
               "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\PowerView.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAIAAABFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-20T08:49:24.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "SetPowerMode.cs",
+              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
+              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
+              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
+              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-25T11:21:31.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrayIconView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
+              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
+              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
+              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-10T07:45:43.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrayIconView.xaml",
+              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
+              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
+              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
+              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAC0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-11-10T07:43:44.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\MainView.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T21:26:48.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SettingsView.xaml",
               "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SettingsView.xaml",
               "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SettingsView.xaml",
@@ -93,59 +160,7 @@
               "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SettingsView.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-20T08:49:16.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SetPowerMode.cs",
-              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
-              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
-              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
-              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\SetPowerMode.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-25T11:21:31.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BoolToImageSourceConverter.cs",
-              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\BoolToImageSourceConverter.cs",
-              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\BoolToImageSourceConverter.cs",
-              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\BoolToImageSourceConverter.cs",
-              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\BoolToImageSourceConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-12T14:54:54.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrayIconView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
-              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
-              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
-              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml.cs",
-              "ViewState": "AQIAAA8BAAAAAAAAAAAqwDsBAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-10T07:45:43.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TrayIconView.xaml",
-              "DocumentMoniker": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
-              "RelativeDocumentMoniker": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
-              "ToolTip": "C:\\Users\\noahj\\OneDrive\\Dokumente\\Visual Studio 2022\\repos\\PowerMode\\src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
-              "RelativeToolTip": "src\\apps\\H.NotifyIcon.Apps.WinUI\\Views\\TrayIconView.xaml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2023-11-10T07:43:44.756Z"
+              "WhenOpened": "2024-05-20T08:49:16.889Z"
             }
           ]
         }

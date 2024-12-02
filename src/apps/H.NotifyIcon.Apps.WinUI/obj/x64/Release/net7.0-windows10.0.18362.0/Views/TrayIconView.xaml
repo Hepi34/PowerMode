@@ -33,15 +33,16 @@
         
         <tb:TaskbarIcon.ContextFlyout>
             <MenuFlyout x:ConnectionId='3' x:Name="MenuFlyout1" AreOpenCloseAnimationsEnabled="True">
-                <ToggleMenuFlyoutItem x:ConnectionId='4' x:Name="RecommendedItem" Text="Recommended" IsChecked="False"                    />
-                <ToggleMenuFlyoutItem x:ConnectionId='5' x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False"                   />
-                <ToggleMenuFlyoutItem x:ConnectionId='6' x:Name="BestPerformanceItem" Text="Best Performance" IsChecked="False"                   />
+                <ToggleMenuFlyoutItem x:ConnectionId='4' x:Name="BetterBatteryItem" Text="Better Battery" IsChecked="False"                                                                  />
+                <ToggleMenuFlyoutItem x:ConnectionId='5' x:Name="RecommendedItem"                           IsChecked="False"                    />
+                <ToggleMenuFlyoutItem x:ConnectionId='6' x:Name="BetterPerformanceItem" Text="Better Performance" IsChecked="False"                                                                     />
+                <ToggleMenuFlyoutItem x:ConnectionId='7' x:Name="BestPerformanceItem" Text="Best Performance" IsChecked="False"                   />
                 <MenuFlyoutSeparator />
-                <ToggleMenuFlyoutItem x:ConnectionId='7' x:Name="BatterySaverItem" Text="Battery Saver" IsChecked="False"                      />
+                <ToggleMenuFlyoutItem x:ConnectionId='8' x:Name="BatterySaverItem" Text="Battery Saver" IsChecked="False"                      />
                 <MenuFlyoutSeparator />
-                <MenuFlyoutItem x:ConnectionId='8'                                          Text="Show/Hide Settings"/>
+                <MenuFlyoutItem x:ConnectionId='9'                                          Text="Show/Hide Settings"/>
                 <MenuFlyoutSeparator />
-                <MenuFlyoutItem x:ConnectionId='9'                                           Text="Exit"/>
+                <MenuFlyoutItem x:ConnectionId='10'                                           Text="Exit"/>
             </MenuFlyout>
         </tb:TaskbarIcon.ContextFlyout>
     </tb:TaskbarIcon>

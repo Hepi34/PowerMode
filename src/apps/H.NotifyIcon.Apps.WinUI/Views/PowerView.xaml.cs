@@ -19,6 +19,7 @@ using H.NotifyIcon.Apps;
 using H.NotifyIcon;
 using System.Threading;
 using Windows.System.Power;
+using System.ComponentModel;
 
 namespace H.NotifyIcon.Apps.Views;
 
@@ -34,13 +35,40 @@ namespace H.NotifyIcon.Apps.Views;
 
     EnergySaverStatus GetCurrentEnergySaverStatus()
     {
-        // Your code to obtain the current status goes here
-        // For example, you might use the PowerManager class
         return PowerManager.EnergySaverStatus;
     }
 
+    public event PropertyChangedEventHandler? PropertyChanged;
+    private void OnPropertyChanged(string propertyName)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        Debug.WriteLine($"Property '{propertyName}' changed.");
+    }
+
+    public bool BetterPerfMode;
     public PowerView()
         {
+        object s = Windows.Storage.ApplicationData.Current.LocalSettings.Values["BetterPerfState"];
+        Debug.WriteLine($"OnNavigatedTo - on: {s}");
+        
+        if (s != null && s is bool onValue)
+        {
+            if (onValue)
+            {
+                BetterPerfMode = true;
+                RecomName = "Recommended";
+                BetterPerformanceVisibility = Visibility.Visible;
+                BetterBatteryVisibility = Visibility.Collapsed;
+
+            }
+            else
+            {
+                BetterBatteryVisibility = Visibility.Visible;
+                BetterPerformanceVisibility = Visibility.Collapsed;
+                RecomName = "Balanced";
+                BetterPerfMode = false;
+            }
+        }
 
         InitializeComponent();
  
@@ -87,6 +115,7 @@ namespace H.NotifyIcon.Apps.Views;
                 Recom.IsChecked = true;
                 Bett.IsChecked = false;
                 Best.IsChecked = false;
+                BettB.IsChecked = false;
             }
             else if (p == SetPowerMode.PowerM.BetterPerformance)
             {
@@ -94,6 +123,7 @@ namespace H.NotifyIcon.Apps.Views;
                 Recom.IsChecked = false;
                 Bett.IsChecked = true;
                 Best.IsChecked = false;
+                BettB.IsChecked= false;
             }
             else if (p == SetPowerMode.PowerM.BestPerformance)
             {
@@ -101,10 +131,20 @@ namespace H.NotifyIcon.Apps.Views;
                 Recom.IsChecked = false;
                 Bett.IsChecked = false;
                 Best.IsChecked = true;
+                BettB.IsChecked = false;
             }
-
-
+        else if (p == SetPowerMode.PowerM.BetterBattery)
+        {
+            Debug.WriteLine("Best performance");
+            Recom.IsChecked = false;
+            Bett.IsChecked = false;
+            Best.IsChecked = false;
+            BettB.IsChecked = true;
         }
+
+
+    }
+
 
         private void RecommendedRadioButton_Checked(object sender, RoutedEventArgs e)
         {
@@ -128,7 +168,18 @@ namespace H.NotifyIcon.Apps.Views;
             }
         }
 
-        private void BestRadioButton_Checked(object sender, RoutedEventArgs e)
+    private void BetterBRadioButton_Checked(object sender, RoutedEventArgs e)
+    {
+
+        if (sender is RadioButton radioButton && radioButton.IsChecked == true)
+        {
+            var p = PowerM.BetterBattery;
+
+            var result = SetPowerMode.PowerSetActiveOverlayScheme(p);
+        }
+    }
+
+    private void BestRadioButton_Checked(object sender, RoutedEventArgs e)
         {
 
             if (sender is RadioButton radioButton && radioButton.IsChecked == true)
@@ -157,21 +208,25 @@ namespace H.NotifyIcon.Apps.Views;
             while (!globalToken.IsCancellationRequested)
             {
                 bool nvidia = GpuType();
-
+                
+                //executed starts off true, so this runs and saves the mode before the gpu was used
                 if (!nvidia & executed)
                 {
                     PowerGetEffectiveOverlayScheme(out saved);
 
                 }
 
+                //nvidia = true -> Gpu is used
                 if (nvidia)
 
                 {
+                    //1st positive is ignored
                     if (ignorefirstp)
                     {
                         Debug.WriteLine("ignoring first positive");
                         ignorefirstp = false;
                     }
+                    //when gpu is used
                     else
                     {
                         executed = false;
@@ -184,7 +239,7 @@ namespace H.NotifyIcon.Apps.Views;
 
                         object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
 
-
+                        //if notifications are on
                         if (u != null && u is bool onValue)
                         {
                             if (onValue)
@@ -209,6 +264,7 @@ namespace H.NotifyIcon.Apps.Views;
                     sentnoti = false;
                     await Task.Run(() => Notification());
                 }
+
                 await Task.Delay(5000); // Wait before the next check
             }
         }
@@ -322,8 +378,51 @@ namespace H.NotifyIcon.Apps.Views;
             
         }
 
-
-
+    private Visibility _betterBatteryVisibility = Visibility.Visible;
+    public Visibility BetterBatteryVisibility
+    {
+        get => _betterBatteryVisibility;
+        set
+        {
+            if (_betterBatteryVisibility != value)
+            {
+                _betterBatteryVisibility = value;
+                OnPropertyChanged(nameof(BetterBatteryVisibility));
+            }
+        }
     }
+
+    private Visibility _betterPerformanceVisibility = Visibility.Collapsed;
+    public Visibility BetterPerformanceVisibility
+    {
+        get => _betterPerformanceVisibility;
+        set
+        {
+            if (_betterPerformanceVisibility != value)
+            {
+                _betterPerformanceVisibility = value;
+                OnPropertyChanged(nameof(BetterPerformanceVisibility));
+            }
+        }
+    }
+
+    private string recomName = "Recommended";
+    public string RecomName
+    {
+        get => recomName;
+        set
+        {
+            if (recomName != value)
+            {
+                recomName = value;
+                OnPropertyChanged(nameof(RecomName));
+                Debug.WriteLine("name changed");
+            }
+        }
+    }
+
+
+
+}
    
 

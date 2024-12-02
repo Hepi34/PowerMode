@@ -9,6 +9,7 @@ using System;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System.ComponentModel;
 using Windows.ApplicationModel.Core;
+using NvAPIWrapper.Native.GPU;
 
 
 namespace H.NotifyIcon.Apps.Views;
@@ -45,6 +46,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
         }
     }
 
+    public bool BetterPerfMode;
     public TrayIconView()
     {
         DataContext = this;
@@ -82,6 +84,30 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
         else if (currentStatus == EnergySaverStatus.Disabled)
         {
             IsBatterySaverOn = false;
+        }
+
+
+
+        object s = Windows.Storage.ApplicationData.Current.LocalSettings.Values["BetterPerfState"];
+        Debug.WriteLine($"OnNavigatedTo - on: {s}");
+
+        if (s != null && s is bool onValue)
+        {
+            if (onValue)
+            {
+                BetterPerfMode = true;
+                RecomName = "Recommended";
+                BetterPerformanceVisibility = Visibility.Visible;
+                BetterBatteryVisibility = Visibility.Collapsed;
+
+            }
+            else
+            {
+                BetterBatteryVisibility = Visibility.Visible;
+                BetterPerformanceVisibility = Visibility.Collapsed;
+                RecomName = "Balanced";
+                BetterPerfMode = false;
+            }
         }
 
         InitializeComponent();
@@ -134,6 +160,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = true;
             BetterPerformanceItem.IsChecked = false;
             BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = false;
 
         }
         else if (p == SetPowerMode.PowerM.BetterPerformance)
@@ -142,6 +169,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = false;
             BetterPerformanceItem.IsChecked = true;
             BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = false;
 
         }
         else if (p == SetPowerMode.PowerM.BestPerformance)
@@ -150,7 +178,15 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = false;
             BetterPerformanceItem.IsChecked = false;
             BestPerformanceItem.IsChecked = true;
+            BetterBatteryItem.IsChecked= false;
 
+        }
+        else if (p== SetPowerMode.PowerM.BetterBattery)
+        {
+            RecommendedItem.IsChecked = false;
+            BetterPerformanceItem.IsChecked = false;
+            BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = true;
         }
 
         EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
@@ -193,6 +229,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = true;
             BetterPerformanceItem.IsChecked = false;
             BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = false;
             var p = PowerM.Recommended;
 
             var result = SetPowerMode.PowerSetActiveOverlayScheme(p);
@@ -209,7 +246,24 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = false;
             BetterPerformanceItem.IsChecked = true;
             BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = false;
             var p = PowerM.BetterPerformance;
+
+            var result = SetPowerMode.PowerSetActiveOverlayScheme(p);
+
+
+        }
+    }
+    private void BettB_Click(object sender, RoutedEventArgs e)
+    {
+
+        if (sender is ToggleMenuFlyoutItem menuItem)
+        {
+            RecommendedItem.IsChecked = false;
+            BetterPerformanceItem.IsChecked = false;
+            BestPerformanceItem.IsChecked = false;
+            BetterBatteryItem.IsChecked = true;
+            var p = PowerM.BetterBattery;
 
             var result = SetPowerMode.PowerSetActiveOverlayScheme(p);
 
@@ -225,6 +279,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             RecommendedItem.IsChecked = false;
             BetterPerformanceItem.IsChecked = false;
             BestPerformanceItem.IsChecked = true;
+            BetterBatteryItem.IsChecked = false;
             var p = PowerM.BestPerformance;
 
             var result = SetPowerMode.PowerSetActiveOverlayScheme(p);
@@ -337,6 +392,48 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
     }
 
 
+    private Visibility _betterBatteryVisibility = Visibility.Visible;
+    public Visibility BetterBatteryVisibility
+{
+    get => _betterBatteryVisibility;
+    set
+    {
+        if (_betterBatteryVisibility != value)
+        {
+            _betterBatteryVisibility = value;
+            OnPropertyChanged(nameof(BetterBatteryVisibility));
+        }
+    }
+}
+
+    private Visibility _betterPerformanceVisibility = Visibility.Collapsed;
+    public Visibility BetterPerformanceVisibility
+{
+    get => _betterPerformanceVisibility;
+    set
+    {
+        if (_betterPerformanceVisibility != value)
+        {
+            _betterPerformanceVisibility = value;
+            OnPropertyChanged(nameof(BetterPerformanceVisibility));
+        }
+    }
+}
+
+    private string recomName = "Recommended";
+    public string RecomName
+    {
+        get => recomName;
+        set
+        {
+            if (recomName != value)
+            {
+                recomName = value;
+                OnPropertyChanged(nameof(RecomName));
+                Debug.WriteLine("name changed");
+            }
+        }
+    }
 
 
 }

@@ -12,24 +12,43 @@
             HorizontalAlignment="Center"
             Spacing="20"
             >
-            <RadioButtons x:Name="pbut">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <RadioButtons x:Name="pbut">
+                <RadioButton                  
+                    x:Name="BettB"
+                    Content="Better battery" 
+                    Checked="BetterBRadioButton_Checked"
+                    Visibility="{x:Bind BetterBatteryVisibility}"
+                    Grid.Row="0"
+                    />
                 <RadioButton
                     x:Name="Recom"
-                    Content="Recommended"
+                    Content="{x:Bind RecomName}"
                     Checked="RecommendedRadioButton_Checked"
+                                        Grid.Row="1"
                      />
                 <RadioButton                  
                     x:Name="Bett"
                     Content="Better performance" 
                     Checked="BetterRadioButton_Checked"
+                    Visibility="{x:Bind BetterPerformanceVisibility}"
+                                        Grid.Row="2"
                     />
                 <RadioButton 
                     x:Name="Best"
                     Content="Best performance" 
                     Checked="BestRadioButton_Checked"
+                                        Grid.Row="3"
                     />
             </RadioButtons>
 
+            </Grid>
             <TextBlock Text="Automatically switch to best performance mode" Margin="0,30,0,0" />
             <TextBlock Text="when dGPU load is detected (Only works with NVIDIA GPUs)." Margin="0,-20,0,0" />
             <TextBlock Text="This will be disabled if battery saver is turned on" Margin="0,-20,0,0" />
