@@ -16,8 +16,9 @@ Since I have not tested this app on Windows 10, I can not guarantee that it work
 
 
 TBA:
-- Support for AMD Laptop GPUs
-    -> Difficult as I don't have access to an AMD laptop at the moment.
+~~- Support for AMD Laptop GPUs~~
+    ~~-> Difficult as I don't have access to an AMD laptop at the moment.~~
+    -> Should be fixed thanks to the help of Gnomey123
 - Multi-language support
 
 Current bugs:
