@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0-windows10.0.18362": {
+    "net8.0-windows10.0.18362": {
       "CommunityToolkit.Mvvm/8.2.1": {
         "type": "package",
         "compile": {
@@ -568,7 +568,7 @@
         }
       }
     },
-    "net7.0-windows10.0.18362/win10-arm64": {
+    "net8.0-windows10.0.18362/win-arm64": {
       "CommunityToolkit.Mvvm/8.2.1": {
         "type": "package",
         "compile": {
@@ -972,9 +972,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Release.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -1100,7 +1097,7 @@
         }
       }
     },
-    "net7.0-windows10.0.18362/win10-x64": {
+    "net8.0-windows10.0.18362/win-x64": {
       "CommunityToolkit.Mvvm/8.2.1": {
         "type": "package",
         "compile": {
@@ -1504,9 +1501,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Release.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -1632,7 +1626,7 @@
         }
       }
     },
-    "net7.0-windows10.0.18362/win10-x86": {
+    "net8.0-windows10.0.18362/win-x86": {
       "CommunityToolkit.Mvvm/8.2.1": {
         "type": "package",
         "compile": {
@@ -2036,9 +2030,6 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {},
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Release.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
@@ -3746,7 +3737,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0-windows10.0.18362": [
+    "net8.0-windows10.0.18362": [
       "CommunityToolkit.Mvvm >= 8.2.1",
       "ConsoleUtilities >= 1.0.0",
       "H.NotifyIcon >= 2.0.115",
@@ -3781,15 +3772,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0-windows10.0.18362.0"
+        "net8.0-windows10.0.18362.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0-windows10.0.18362": {
-          "targetAlias": "net7.0-windows10.0.18362.0",
+        "net8.0-windows10.0.18362": {
+          "targetAlias": "net8.0-windows10.0.18362.0",
           "projectReferences": {}
         }
       },
@@ -3802,11 +3793,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net7.0-windows10.0.18362": {
-        "targetAlias": "net7.0-windows10.0.18362.0",
+      "net8.0-windows10.0.18362": {
+        "targetAlias": "net8.0-windows10.0.18362.0",
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
@@ -3862,89 +3854,65 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-arm64",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x86",
-            "version": "[7.0.19, 7.0.19]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.18362.31, 10.0.18362.31]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[10.0.18362.54, 10.0.18362.54]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[7.0.19, 7.0.19]"
+            "version": "[8.0.11, 8.0.11]"
           }
         ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.Windows.SDK.NET.Ref": {
+          "Microsoft.Windows.SDK.NET.Ref.Windows": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win10-arm64": {
+      "win-arm64": {
         "#import": []
       },
-      "win10-x64": {
+      "win-x64": {
         "#import": []
       },
-      "win10-x86": {
+      "win-x86": {
         "#import": []
       }
     }

@@ -50,7 +50,7 @@
 
             </Grid>
             <TextBlock Text="Automatically switch to best performance mode" Margin="0,30,0,0" />
-            <TextBlock Text="when dGPU load is detected (Only works with NVIDIA GPUs)." Margin="0,-20,0,0" />
+            <TextBlock Text="when dGPU load is detected." Margin="0,-20,0,0" />
             <TextBlock Text="This will be disabled if battery saver is turned on" Margin="0,-20,0,0" />
 
 
