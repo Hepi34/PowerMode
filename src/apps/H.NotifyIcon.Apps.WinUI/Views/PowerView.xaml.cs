@@ -1,46 +1,17 @@
-﻿    using static H.NotifyIcon.Apps.SetPowerMode;
-using H.NotifyIcon.Apps;
-    using Microsoft.UI.Xaml.Controls;
-    using Microsoft.UI.Xaml.Navigation;
-    using Microsoft.Win32;
-    using System.Diagnostics;
-    using System.Runtime.InteropServices;
-    using System.Text;
-    using Windows.UI.Core;
-    using System;
-    using System.Management;
-    using NvAPIWrapper;
-    using NvAPIWrapper.Display;
-    using NvAPIWrapper.GPU;
-    using NvAPIWrapper.Native.GPU.Structures;
-    using NvAPIWrapper.Native.Interfaces.GPU;
-    using Windows.Media.AppRecording;
-    using NvAPIWrapper.Native.GPU;
-using H.NotifyIcon;
-using System.Threading;
+﻿using static PowerModeWinUI.Tools.SetPowerMode;
+using System.Diagnostics;
 using Windows.System.Power;
 using System.ComponentModel;
-using PowerModeWinUI.GPU;
+using PowerModeWinUI.Tools;
 
 
 namespace H.NotifyIcon.Apps.Views;
 
-    public sealed partial class PowerView
+public sealed partial class PowerView
     {
-
-    public TaskbarIcon? TrayIcon { get; set; }
-    bool executed = true;
-        Guid saved;
-        bool wait = true;
-        bool ignorefirstp;
-    bool sentnoti = false;
-
-
-
-    EnergySaverStatus GetCurrentEnergySaverStatus()
-    {
-        return PowerManager.EnergySaverStatus;
-    }
+    
+    bool wait = true;
+        public TaskbarIcon? TrayIcon { get; set; }
 
     public event PropertyChangedEventHandler? PropertyChanged;
     private void OnPropertyChanged(string propertyName)
@@ -49,17 +20,17 @@ namespace H.NotifyIcon.Apps.Views;
         Debug.WriteLine($"Property '{propertyName}' changed.");
     }
 
-    public bool BetterPerfMode;
     public PowerView()
         {
         object s = Windows.Storage.ApplicationData.Current.LocalSettings.Values["BetterPerfState"];
-        Debug.WriteLine($"OnNavigatedTo - on: {s}");
+        Debug.WriteLine($"BetterPerformanceGUID: {s}");
         
+        //Not all machines have the same GUIDs available. This sets the displayed ones to those that your computer can use
+
         if (s != null && s is bool onValue)
         {
             if (onValue)
             {
-                BetterPerfMode = true;
                 RecomName = "Recommended";
                 BetterPerformanceVisibility = Visibility.Visible;
                 BetterBatteryVisibility = Visibility.Collapsed;
@@ -70,15 +41,13 @@ namespace H.NotifyIcon.Apps.Views;
                 BetterBatteryVisibility = Visibility.Visible;
                 BetterPerformanceVisibility = Visibility.Collapsed;
                 RecomName = "Balanced";
-                BetterPerfMode = false;
             }
         }
 
         InitializeComponent();
  
-            dgpu.Toggled += GpuToggled;
+        dgpu.Toggled += GpuToggled;
         
-
     }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -194,232 +163,28 @@ namespace H.NotifyIcon.Apps.Views;
             }
         }
 
-        public async void StartGPUChecking()
-        {
-
-        var nvidiaInstance = new PowerModeWinUI.GPU.Nvidia();
-        var amdInstance = new PowerModeWinUI.GPU.Amd();
-
-        EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
-
-        if (currentStatus == EnergySaverStatus.On)
-        {
-            //nothing
-            await Task.Delay(5000);
-        }
-        else if (currentStatus == EnergySaverStatus.Off || currentStatus == EnergySaverStatus.Disabled)
-        {
-
-            CancellationToken globalToken = App.GlobalCancellationToken;
-
-            while (!globalToken.IsCancellationRequested)
-            {
-                var GPUtype = "na";
-
-                if (nvidiaInstance.NVIDIApresent())
-                {
-                    GPUtype = "nv";
-                }
-                else if (amdInstance.GetAMD())
-                {
-                    GPUtype = "amd";
-                }
-
-                if (GPUtype == "nv")
-                {
-                    bool nvidia = nvidiaInstance.GpuType();
-
-                    //executed starts off true, so this runs and saves the mode before the gpu was used
-                    if (!nvidia & executed)
-                    {
-                        PowerGetEffectiveOverlayScheme(out saved);
-
-                    }
-
-                    //nvidia = true -> Gpu is used
-                    if (nvidia)
-
-                    {
-                        //1st positive is ignored
-                        if (ignorefirstp)
-                        {
-                            Debug.WriteLine("ignoring first positive");
-                            ignorefirstp = false;
-                        }
-                        //when gpu is used
-                        else
-                        {
-                            executed = false; //so it no longer saves the current mode (as it will be set to best performance when using the dGPU)
-                            Guid p;
-                            p = SetPowerMode.PowerM.BestPerformance;
-                            Debug.WriteLine("gpu used");
-
-                            PowerSetActiveOverlayScheme(p);
-
-
-                            object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
-
-                            //if notifications are on
-                            if (u != null && u is bool onValue)
-                            {
-                                if (onValue)
-                                {
-                                    if (!sentnoti)
-                                    {
-                                        await Task.Run(() => Notification());
-                                        sentnoti = true;
-                                    }
-
-                                }
-                            }
-                        }
-
-                    }
-                    else if (executed == false)
-                    {
-                        SetPowerMode.PowerSetActiveOverlayScheme(saved);
-                        executed = true;
-                        sentnoti = false;
-                        await Task.Run(() => Notification());
-                    }
-
-                    await Task.Delay(5000); // Wait before the next check
-                }
-
-                else if (GPUtype == "amd")
-                {
-                    bool amd = amdInstance.AmdDGPUIsActive();
-
-                    //executed starts off true, so this runs and saves the mode before the gpu was used
-                    if (!amd & executed)
-                    {
-                        PowerGetEffectiveOverlayScheme(out saved);
-
-                    }
-
-                    //amd = true -> Gpu is used
-                    if (amd)
-
-                    {
-                        //when gpu is used
-                            executed = false; //so it no longer saves the current mode (as it will be set to best performance when using the dGPU)
-                            Guid p;
-                            p = SetPowerMode.PowerM.BestPerformance;
-                            Debug.WriteLine("gpu used");
-
-                            PowerSetActiveOverlayScheme(p);
-
-                            object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
-
-                            //if notifications are on
-                            if (u != null && u is bool onValue)
-                            {
-                                if (onValue)
-                                {
-                                    if (!sentnoti)
-                                    {
-                                        await Task.Run(() => Notification());
-                                        sentnoti = true;
-                                    }
-
-                                }
-                            }
-
-                    }
-                    else if (executed == false)
-                    {
-                        SetPowerMode.PowerSetActiveOverlayScheme(saved);
-                        executed = true;
-                        sentnoti = false;
-                        await Task.Run(() => Notification());
-                    }
-
-                    await Task.Delay(5000); // Wait before the next check
-
-                }
-
-            }
-        }
-
-        }
-
-    public void Notification()
-    {
-        object m = Windows.Storage.ApplicationData.Current.LocalSettings.Values["SoundState"];
-        var sound = true;
-
-        if (m != null && m is bool MonValue)
-        {
-            if (MonValue)
-            {
-                sound = true;
-            }
-            else
-            {
-                sound = false;
-            }
-        }
-        Debug.WriteLine("notify");
-
-        PowerGetEffectiveOverlayScheme(out Guid z);
-
-        var pm = "Recommended";
-
-        if (z == SetPowerMode.PowerM.Recommended)
-        {
-            pm = "Recommended";
-
-        }
-        else if (z == SetPowerMode.PowerM.BetterPerformance)
-        {
-            pm = "Better Performance";
-
-        }
-        else if (z == SetPowerMode.PowerM.BestPerformance)
-        {
-            pm = "Best Performance";
-
-        }
-
-        TrayIcon?.ShowNotification(
-
-            title: "Hepi34/PowerMode",
-            message: "The powermode changed to " + pm,
-            icon: NotificationIcon.Info,
-
-            //largeIcon: LargeIconCheckBox.IsChecked ?? false,
-
-            sound: sound,
-            respectQuietTime: true,
-            realtime: true,
-            timeout: null);
-    }
     public void GpuToggled(object sender, RoutedEventArgs e)
         {
-            bool temp;
+  
 
-
-        if (!wait)
+        if (!wait) //the app loads the current switch position, which sometimes causes gputoggled to activate
             {
 
-                if (dgpu.IsOn)
-                {
-                    temp = true;
-                    Debug.WriteLine("set to true");
-                    Windows.Storage.ApplicationData.Current.LocalSettings.Values["OnState"] = temp;
+            if (dgpu.IsOn)
+            {
+                Debug.WriteLine("set to true");
+                Windows.Storage.ApplicationData.Current.LocalSettings.Values["OnState"] = true;
 
-                    //This is needed because the first gpu check is always true
-                    ignorefirstp = true;
+                var gpu = new PowerModeWinUI.GPU.GPUcheck();
 
-                    Task.Run(() => StartGPUChecking());
+                Task.Run(() => gpu.StartGPUChecking(TrayIcon));
 
             }
 
-                else
-                {
-                    temp = false;
-                    Windows.Storage.ApplicationData.Current.LocalSettings.Values["OnState"] = temp;
-                    Debug.WriteLine("set to false");
+            else
+            {
+                Windows.Storage.ApplicationData.Current.LocalSettings.Values["OnState"] = false;
+                Debug.WriteLine("set to false");
 
 
                 App.RenewGlobalToken();

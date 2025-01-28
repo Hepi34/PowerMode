@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-using static H.NotifyIcon.Apps.SetPowerMode;
+using static PowerModeWinUI.Tools.SetPowerMode;
 
 namespace H.NotifyIcon.Apps.Views;
 

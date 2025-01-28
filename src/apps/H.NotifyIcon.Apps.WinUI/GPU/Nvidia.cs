@@ -1,15 +1,6 @@
 ﻿using NvAPIWrapper.GPU;
 using NvAPIWrapper;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NvAPIWrapper.Native.GPU.Structures;
-using NvAPIWrapper.Native.Interfaces.GPU;
-using Windows.Media.AppRecording;
-using NvAPIWrapper.Native.GPU;
 
 namespace PowerModeWinUI.GPU
 {
@@ -40,7 +31,6 @@ namespace PowerModeWinUI.GPU
                 Debug.WriteLine(gpu.PerformanceStatesInfo);
                 return true;
             }
-
             catch
             {
 

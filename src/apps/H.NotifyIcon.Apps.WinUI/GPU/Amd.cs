@@ -1,16 +1,10 @@
 ﻿using GHelper.Gpu.AMD;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Diagnostics;
 
 namespace PowerModeWinUI.GPU
 {
     internal class Amd
     {
-
         public bool GetAMD()
         {
             AmdGpuControl _gpuControl = new AmdGpuControl();
@@ -33,7 +27,6 @@ namespace PowerModeWinUI.GPU
         {
             var amdI = new GHelper.Gpu.AMD.AmdGpuControl();
 
-
             try
             {
                 int status = amdI.GetAMD_GPU_Status();
@@ -52,7 +45,6 @@ namespace PowerModeWinUI.GPU
                 Debug.WriteLine(ex.Message);
                 return false;
             }
-
 
         }
 

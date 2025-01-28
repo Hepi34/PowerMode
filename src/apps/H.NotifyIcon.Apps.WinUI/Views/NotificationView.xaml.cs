@@ -1,4 +1,4 @@
-﻿using static H.NotifyIcon.Apps.SetPowerMode;
+﻿using static PowerModeWinUI.Tools.SetPowerMode;
 using H.NotifyIcon;
 using System.Diagnostics;
 
@@ -7,6 +7,7 @@ namespace H.NotifyIcon.Apps.Views;
 public sealed partial class NotificationView
 {
     public TaskbarIcon? TrayIcon { get; set; }
+
     bool ignorenoti;
 
     public NotificationView()

@@ -3,13 +3,14 @@ using System.Runtime.InteropServices;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.UI.Xaml.Controls;
 using WinUIEx;
-using static H.NotifyIcon.Apps.SetPowerMode;
+using static PowerModeWinUI.Tools.SetPowerMode;
 using Windows.System.Power;
 using System;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System.ComponentModel;
 using Windows.ApplicationModel.Core;
 using NvAPIWrapper.Native.GPU;
+using PowerModeWinUI.Tools;
 
 
 namespace H.NotifyIcon.Apps.Views;
@@ -357,6 +358,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
         catch (Exception objException)
         {
             // Log the exception
+            Debug.WriteLine(objException);
         }
     }
 

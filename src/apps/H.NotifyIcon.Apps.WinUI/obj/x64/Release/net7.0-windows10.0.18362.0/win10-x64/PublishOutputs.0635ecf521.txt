@@ -1,4 +1,0 @@
-C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\Release\Publish\PowerModeWinUI.pdb
-C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\Release\Publish\Microsoft.WindowsAppRuntime.Bootstrap.dll
-C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\Release\Publish\resources.pri
-C:\Users\noahj\OneDrive\Dokumente\Visual Studio 2022\repos\PowerModeWinUI\src\apps\H.NotifyIcon.Apps.WinUI\bin\Release\Publish\PowerModeWinUI.exe

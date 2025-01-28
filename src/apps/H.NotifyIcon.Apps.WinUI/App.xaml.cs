@@ -1,10 +1,6 @@
 ﻿using H.NotifyIcon.Apps.Views;
-using Microsoft.UI.Xaml;
-using System;
 using System.Diagnostics;
-using System.Reflection;
 using System.Runtime.InteropServices;
-using System.Threading;
 
 #nullable enable
 
@@ -78,16 +74,13 @@ public sealed partial class App
 
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {
+        findGuid();
 
         MainWindow = new MainView();
 
         MainWindow.Activate();
 
         MainWindow.Hide();
-
-        findGuid();
-
-
 
     }
 

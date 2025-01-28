@@ -2,6 +2,7 @@
 using WinRT.Interop;
 using WinUIEx;
 using Microsoft.UI.Windowing;
+using PowerModeWinUI.Tools;
 
 
 namespace H.NotifyIcon.Apps.Views;
