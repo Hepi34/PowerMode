@@ -3,7 +3,7 @@ Allows you to change the powermode from the taskbar, like you could in Windows 1
 
 Features:
 - Changing the powermode and switching the battery saver from the taskbar or in the app settings
-- Automatically switching to best performance mode when load on the discrete graphics card is detected (only for NVIDIA for now)
+- Automatically switching to best performance mode when load on the discrete graphics card is detected
 - Sending notifications if the powermode automatically changes.
 - This app creates an autostart entry in the task manager and will automatically start with Windows by default.
 - The icon will show if the battery saver is enabled (or not).
