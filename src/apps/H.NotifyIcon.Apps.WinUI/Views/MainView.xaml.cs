@@ -22,6 +22,7 @@ public sealed partial class MainView
 
         NavigationView.ItemInvoked += NavigationView_ItemInvoked;
 
+
         this.Closed += MainWindowClosed;
     }
 

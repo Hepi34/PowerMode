@@ -1,4 +1,5 @@
 ﻿using H.NotifyIcon.Apps.Views;
+using PowerModeWinUI.Tools;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
@@ -72,7 +73,7 @@ public sealed partial class App
     #region Event Handlers
 
 
-    protected override void OnLaunched(LaunchActivatedEventArgs args)
+    protected override async void OnLaunched(LaunchActivatedEventArgs args)
     {
         findGuid();
 
@@ -81,6 +82,12 @@ public sealed partial class App
         MainWindow.Activate();
 
         MainWindow.Hide();
+
+        Debug.WriteLine("Update check code starts now.");
+
+
+        await UpdateCheck.CheckForUpdates(MainWindow);
+
 
     }
 

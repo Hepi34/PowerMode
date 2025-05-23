@@ -14,12 +14,15 @@ public sealed partial class SettingsView
         InitializeControls();
         def.Toggled += defToggle;
         seperate.Toggled += seperatToggle;
+        updateSwitch.Toggled += updateSwitchToggle;
     }
 
     
     private void InitializeControls()
     {
         ignore = true;
+
+      
 
         object e = Windows.Storage.ApplicationData.Current.LocalSettings.Values["DefaultState"];
         if (e != null && e is bool EonValue)
@@ -43,6 +46,19 @@ public sealed partial class SettingsView
             else
             {
                 seperate.IsOn = false;
+            }
+        }
+
+        object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["UpdateState"];
+        if (u != null && u is bool UonValue)
+        {
+            if (UonValue)
+            {
+                updateSwitch.IsOn = true;
+            }
+            else
+            {
+                updateSwitch.IsOn = false;
             }
         }
 
@@ -114,6 +130,21 @@ public sealed partial class SettingsView
     private void Button_Click(object sender, RoutedEventArgs e)
     {
         Microsoft.Windows.AppLifecycle.AppInstance.Restart("");
+    }
+
+    public void updateSwitchToggle(object sender, RoutedEventArgs e)
+    {
+        if (!ignore)
+        {
+            if (updateSwitch.IsOn)
+            {
+                Windows.Storage.ApplicationData.Current.LocalSettings.Values["UpdateState"] = true;
+            }
+            else
+            {
+                Windows.Storage.ApplicationData.Current.LocalSettings.Values["UpdateState"] = false;
+            }
+        }
     }
 
     public void defToggle(object sender, RoutedEventArgs e)

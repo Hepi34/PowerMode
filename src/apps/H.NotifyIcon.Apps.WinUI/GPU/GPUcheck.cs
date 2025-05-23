@@ -41,17 +41,21 @@ namespace PowerModeWinUI.GPU
                     await Task.Delay(5000);
                 }
 
+                //when battery saver is off
                 else if (currentStatus == EnergySaverStatus.Off || currentStatus == EnergySaverStatus.Disabled)
                 {
                     var GPUtype = "na";
 
+                    //set gpu type based on which on the user has
                     if (nvidiaInstance.NVIDIApresent())
                     {
                         GPUtype = "nv";
+                        Debug.WriteLine("nvidia gpu present");
                     }
                     else if (amdInstance.GetAMD())
                     {
                         GPUtype = "amd";
+                        Debug.WriteLine("amd gpu present");
                     }
 
                     if (GPUtype == "nv")
@@ -108,8 +112,22 @@ namespace PowerModeWinUI.GPU
                         {
                             SetPowerMode.PowerSetActiveOverlayScheme(saved);
                             executed = true;
-                            sentnoti = false;
-                            await Task.Run(() => Noti.Notification());
+                            //if notifications are on
+
+                            object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
+                            if (u != null && u is bool onValue)
+                            {
+                                if (onValue)
+                                {
+                                    if (!sentnoti)
+                                    {
+                                        sentnoti = false;
+                                        await Task.Run(() => Noti.Notification());
+                                    }
+
+                                }
+                            }
+
                         }
 
                         await Task.Delay(5000); // Wait before the next check
@@ -159,8 +177,21 @@ namespace PowerModeWinUI.GPU
                         {
                             SetPowerMode.PowerSetActiveOverlayScheme(saved);
                             executed = true;
-                            sentnoti = false;
-                            await Task.Run(() => Noti.Notification());
+                            //if notifications are on
+
+                            object u = Windows.Storage.ApplicationData.Current.LocalSettings.Values["NotiState"];
+                            if (u != null && u is bool onValue)
+                            {
+                                if (onValue)
+                                {
+                                    if (!sentnoti)
+                                    {
+                                        sentnoti = false;
+                                        await Task.Run(() => Noti.Notification());
+                                    }
+
+                                }
+                            }
                         }
 
                         await Task.Delay(5000); // Wait before the next check

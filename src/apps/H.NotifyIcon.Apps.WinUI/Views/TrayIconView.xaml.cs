@@ -1,15 +1,8 @@
 ﻿using System.Diagnostics;
-using System.Runtime.InteropServices;
 using CommunityToolkit.Mvvm.Input;
-using Microsoft.UI.Xaml.Controls;
-using WinUIEx;
 using static PowerModeWinUI.Tools.SetPowerMode;
 using Windows.System.Power;
-using System;
-using Microsoft.UI.Xaml.Media.Imaging;
 using System.ComponentModel;
-using Windows.ApplicationModel.Core;
-using NvAPIWrapper.Native.GPU;
 using PowerModeWinUI.Tools;
 
 
@@ -21,9 +14,9 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
 {
     EnergySaverStatus GetCurrentEnergySaverStatus()
     {
-
         return PowerManager.EnergySaverStatus;
     }
+
     public event PropertyChangedEventHandler? PropertyChanged;
 
     protected virtual void OnPropertyChanged(string propertyName)
@@ -72,25 +65,9 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             }
         }
 
-        EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
-
-        if (currentStatus == EnergySaverStatus.On)
-        {
-            IsBatterySaverOn = true;
-        }
-        else if (currentStatus == EnergySaverStatus.Off)
-        {
-            IsBatterySaverOn = false;
-        }
-        else if (currentStatus == EnergySaverStatus.Disabled)
-        {
-            IsBatterySaverOn = false;
-        }
-
-
-
+        //change options depending on which guids ara available on the users machine
         object s = Windows.Storage.ApplicationData.Current.LocalSettings.Values["BetterPerfState"];
-        Debug.WriteLine($"OnNavigatedTo - on: {s}");
+        Debug.WriteLine($"BetterPerfromance is shown: {s}");
 
         if (s != null && s is bool onValue)
         {
@@ -113,7 +90,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
 
         InitializeComponent();
 
-
+        //to dinamically update the icon
         DispatcherQueue.TryEnqueue(() => UpdateIcon());
 
     }
@@ -190,6 +167,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             BetterBatteryItem.IsChecked = true;
         }
 
+        //set the battery saver option
         EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
 
         if (currentStatus == EnergySaverStatus.On)
@@ -213,6 +191,7 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
 
     }
 
+    //gray out the battery saver option when the charger is plugged in
     private void UpdateUIBasedOnPowerStatus()
     {
         // Get the current power supply status
@@ -364,16 +343,11 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
 
     private async void UpdateIcon()
     {
-        bool keepRunning = true;
 
-        while (keepRunning)
+        while (true)
         {
-            // Your code here
 
-            Debug.WriteLine("reached");
-
-            // Delay before the next iteration
-            await Task.Delay(5000);
+            Debug.WriteLine("reached icon update code");
 
             EnergySaverStatus currentStatus = GetCurrentEnergySaverStatus();
 
@@ -389,6 +363,8 @@ public partial class TrayIconView : UserControl, INotifyPropertyChanged
             {
                 IsBatterySaverOn = false;
             }
+
+            await Task.Delay(5000);
 
         }
     }
